@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - ReactJS Training</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <h1>⚛️ Welcome to ReactJS Training</h1>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="fade-in">
+        <h2>Master ReactJS Development</h2>
+        <p>
+          Join our comprehensive ReactJS course and become a professional
+          front-end developer! 🚀
+        </p>
+
+        <!-- New: Unordered List -->
+        <ul class="feature-list">
+          <li>Live sessions with expert mentors</li>
+          <li>Hands-on projects & assignments</li>
+          <li>Interview preparation support</li>
+        </ul>
+
+        <!-- New: Form for newsletter/signup -->
+        <form id="subscribe-form" class="signup-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        
+
+        <a href="about.html" class="btn">Know More</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ReactJS Training</p>
+    </footer>
+
+    <script>
+      document.getElementById('subscribe-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+    
+        Swal.fire({
+          title: '🎉 Thank You!',
+          text: 'You have successfully subscribed to ReactJS Training!',
+          icon: 'success',
+          confirmButtonText: 'Close',
+          background: '#f0f9ff',
+          customClass: {
+            popup: 'animated tada'
+          }
+        });
+    
+        this.reset();
+      });
+    </script>
+    
+    
+  </body>
+</html>
