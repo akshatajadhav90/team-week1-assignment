@@ -1,17 +1,22 @@
-1. Navigate to the counter-app/ directory.
+# Counter-app
 
-2. Install the dependencies by running:
+## Navigate to the counter-app/ directory.
 
-npm install
+## Install the dependencies by running:
 
-3. Start the React app by running:
+### npm install
 
-npm start
+## Start the React app by running:
 
-4. Open your browser and go to http://localhost:3000 to view the app.
+### npm start
 
-5. Navigate to the html-page/ directory
+### Open your browser and go to http://localhost:3000 to view the app.
 
-6. Open the index.html file directly in your browser to view the static HTML page.
 
-No server required. You can simply double-click the index.html file to open it.
+# html-page
+
+## Navigate to the html-page/ directory
+
+## Open the index.html file directly in your browser to view the static HTML page.
+
+## No server required. You can simply double-click the index.html file to open it.
